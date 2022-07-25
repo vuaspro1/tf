@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <title>Twenty Flower - Login</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/templatemo-sixteen.css">
+    <link rel="stylesheet" href="css/owl.css">
+
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <header class="">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <h2>Twenty <em>Flower</em></h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Our Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="login.html">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html"><i class="fa fa-shopping-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="body-wrap shop-default shop-cads shop-tech gry-bg">
+        <section class="py-5">
+            <div class="profile">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 offset-xl-2">
+                            <div class>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-8 offset-md-2">
+                                            <div class="login_wrapper">
+                                                <h2 class="text-left mb-5">Đăng nhập vào tài khoản</h2>
+                                                <form class="form-default">
+                                                    <div class="formsix-pos">
+                                                        <div class="form-group i-email">
+                                                            <input type="email" class="form-control" value
+                                                                placeholder="Email" name="email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="formsix-e">
+                                                        <div class="form-group i-password">
+                                                            <input type="password" class="form-control"
+                                                                placeholder="Mật khẩu" name="password"
+                                                                id="password required">
+                                                        </div>
+                                                    </div>
+                                                    <div class="login_remember_box">
+                                                        <input type="checkbox" id="demo-form-checkbox"
+                                                            class="magic-checkbox" name="remember">
+                                                        <label for="demo-form-checkbox" class="text-sm">Lưu thông
+                                                            tin</label>
+                                                        <a href="#" class="forget_password">Quên mật khẩu?</a>
+                                                    </div>
+                                                    <div class="login_btn_wrapper">
+                                                        <button class="filled-button login_btn w-100" type="submit">Đăng
+                                                            nhập</button>
+                                                    </div>
+                                                </form>
+                                                <div class="d-flex my-3 col-12 align-items-center">
+                                                    <hr class="d-flex-grow-1">
+                                                </div>
+                                                <div class="row"> </div>
+                                                <div class="login_message">
+                                                    <p>
+                                                        "Chưa có tài khoản?"
+                                                        <a href="#"> Đăng ký ngay</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="js/custom.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/accordions.js"></script>
+
+
+    <script language="text/Javascript">
+        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+        function clearField(t) {                   //declaring the array outside of the
+            if (!cleared[t.id]) {                      // function makes it static and global
+                cleared[t.id] = 1;  // you could use true and false, but that's more typing
+                t.value = '';         // with more chance of typos
+                t.style.color = '#fff';
+            }
+        }
+    </script>
+</body>
+
+</html>
